@@ -1,22 +1,24 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
+import Lista from './components/Lista';
 
 function App() {
-  const name = 'Gabriel'
 
-  function sum(a, b){
-    return a + b
-  }
-
-  const url = 'https://via.placeholder.com/150'
+  const nome = 'Luiza'
 
   return (
     <div className="App">
-      <h1>Olá React</h1>
-      <p>Olá, {name}</p>
-      <p>soma: {sum(5, 5)}</p>
-      <img src={url} alt="" />
-      <HelloWorld/>
+      <HelloWorld />
+      <SayMyName nome="Gabriel" />
+      <SayMyName nome={nome} />
+      <Pessoa
+       nome="Gabriel" 
+       idade="21" 
+       profissao="Programador" 
+       foto="https://via.placeholder.com/150" />
+       <Lista/>
     </div>
   );
 }

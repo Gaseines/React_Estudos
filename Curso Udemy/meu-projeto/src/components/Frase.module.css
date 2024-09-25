@@ -1,0 +1,11 @@
+.fraseContainer{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.fraseContent{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
