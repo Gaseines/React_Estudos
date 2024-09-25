@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.escrita{
+    font-size: 1.3em;
+}
+
+code{
+    color: green;
+}
