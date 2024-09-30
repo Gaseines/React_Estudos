@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <link rel="stylesheet" href="styleAnot.css">
 </head>
+
 <body>
     <main>
         <div class="all">
@@ -23,25 +25,48 @@
                     </li>
                     <h2>CSS</h2>
                     <li>
-                        <p>Lembrar de quando for colocar <code>class </code> em algum elemento, utilizar <code>className</code></p>
+                        <p>Lembrar de quando for colocar <code>class </code> em algum elemento, utilizar
+                            <code>className</code></p>
                     </li>
                     <li>
                         <p>O index.css vai ser sempre o CSS Global do projeto</p>
                     </li>
                     <li>
-                        <p>Para fazer o CSS de um componente expecifico deve criar um arquivo .css com o nome de <code>NomeDoComponente.module.css</code></p>
+                        <p>Para fazer o CSS de um componente expecifico deve criar um arquivo .css com o nome de
+                            <code>NomeDoComponente.module.css</code></p>
                     </li>
                     <h2>Fragmentos</h2>
                     <li>
-                        <p>É usado no caso de ser apenas um item separado, exemplo, uma lista, quero criar apenas o item da lista separado, não preciso criar a <code>div</code> como Pai, apenas uso <code><> </code></p>
+                        <p>É usado no caso de ser apenas um item separado, exemplo, uma lista, quero criar apenas o item
+                            da lista separado, não preciso criar a <code>div</code> como Pai, apenas uso
+                            <code><> </code></p>
                     </li>
                     <h2>Tipos de props</h2>
                     <li>
-                        <p>Para importar proto-type coloca <code>import ProtoType from "proto-type" no item que vai ter um tipo</code></p>
+                        <p>Para importar proto-type coloca
+                            <code>import ProtoType from "proto-type" no item que vai ter um tipo</code></p>
+                    </li>
+                    <h2>Eventos</h2>
+                    <li>
+                        <p>Eventos são como no JavaScript puro, mas são adicionados ao elemento diretamente no código
+                        </p>
+                    </li>
+                    <h4>Formulario</h4>
+                    <li>
+                        <p>Na função de Submit de um formulario, sempre utilizar <code>e.preventDefault()</code></p> para não atualizar a pagina e ver se a função está funcionando
+                    </li>
+                    <h2>Hooks (pegar e armazenar dados do Form)</h2>
+                    <h4>useState:</h4>
+                    <li>
+                        <p>Sempre importar no arquivo que será usado com <code>import { useState } from 'react'</code></p>
+                    </li>
+                    <li>
+                        <p>Cria-se duas contantes para cada dado que vai ser manipulado como por exemplo <code>const [name. setName] = useState()</code> nesse caso, poderia ser manipulado o name recebido de um imput por exemplo</p>
                     </li>
                 </ul>
             </div>
         </div>
     </main>
 </body>
+
 </html>
