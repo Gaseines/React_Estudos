@@ -9,7 +9,7 @@ function Input({ type, text, name, placeholder, handleOnChange, value }) {
             placeholder={placeholder} 
             name={name} 
             id={name}
-            onChenge={handleOnChange}
+            onChange={handleOnChange}
             value={value} />
         </div>
     )
