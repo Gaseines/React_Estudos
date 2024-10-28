@@ -54,6 +54,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "8520",
+      "name": "Gabriel",
+      "budget": "15478934",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
