@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "price": "59.90"
+    },
+    {
+      "id": "2",
+      "name": "Calça Jeans",
+      "price": "129.90"
+    },
+    {
+      "id": "3",
+      "name": "Tênis Esportivo",
+      "price": "199.90"
+    },
+    {
+      "id": "4",
+      "name": "Relógio Digital",
+      "price": "249.90"
+    },
+    {
+      "id": "5",
+      "name": "Jaqueta de Couro",
+      "price": "349.90"
+    },
+    {
+      "id": "6",
+      "name": "Mochila",
+      "price": "89.90"
+    },
+    {
+      "id": "7",
+      "name": "Fone de Ouvido",
+      "price": "99.90"
+    },
+    {
+      "id": "8",
+      "name": "Óculos de Sol",
+      "price": "149.90"
+    },
+    {
+      "id": "9",
+      "name": "Camiseta Estampada",
+      "price": "49.90"
+    },
+    {
+      "id": "10",
+      "name": "Carteira de Couro",
+      "price": "69.90"
+    },
+    {
+      "id": "6133",
+      "name": "TESTE",
+      "price": "4"
+    },
+    {
+      "id": "e594",
+      "name": "Capa de Chuva",
+      "price": "50.50"
+    },
+    {
+      "id": "a7af",
+      "name": "Meias",
+      "price": "5.00"
+    }
+  ]
+}
