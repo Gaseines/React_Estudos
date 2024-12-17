@@ -64,6 +64,16 @@
       "id": "a7af",
       "name": "Meias",
       "price": "5.00"
+    },
+    {
+      "id": "655d",
+      "name": "Mouse",
+      "price": "320"
+    },
+    {
+      "id": "eb91",
+      "name": "Suporte monitor",
+      "price": "500"
     }
   ]
 }
